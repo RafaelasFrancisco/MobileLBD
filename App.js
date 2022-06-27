@@ -33,13 +33,13 @@ function App () {
           const { index, item } = info
           return (
             <View style={{
-              FLEX: 1,
+              flex: 1,
               justifyContent: 'center',
               alignItems: 'center'
             }}>
               <Text style={{
                 fontSize: 24,
-                color: 'pink'
+                color: 'white'
               }}>
                 {index} -
                 {item.name}
